@@ -1,0 +1,25 @@
+body{
+background-image:url('library1.jpg');
+background-repeat:no-repeat;
+background-size:100%;}
+#mymenu
+{background-color:rgba(0,0,0,0.5);
+color:white;
+margin:-20px;
+text-align:right;
+}
+#mymenu ul li{
+display:inline-block;
+padding:20px;
+}
+#mymenu ul li:hover
+{display:inline-block;
+padding:20px;
+background-color:orange;
+}
+#comment{
+margin-top:200px;
+color:white;
+
+
+}
