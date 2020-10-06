@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/myTextField"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:ems="10"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/myTextField1"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myTextField" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="399dp"
+        android:onClick="clickFunction"
+        android:text="Log in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myTextField1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="51dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:text="LogIN Page"
+        android:textColor="#F40707"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/myTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginRight="242dp"
+        android:text="What is your name?"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toTopOf="@+id/myTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="4dp"
+        android:text="What is your password?"
+        android:textColor="#191818"
+        app:layout_constraintBottom_toTopOf="@+id/myTextField1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myTextField" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
